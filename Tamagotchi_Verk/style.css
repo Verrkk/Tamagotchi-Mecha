@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(31, 37, 27);
+    color: white;
+
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#mecha-stats-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+#mecha-sprite-container{
+    display: block;
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+    margin: auto auto;
+}
+
+#mecha-sprite-container img{
+    min-height: 30vh;
+    max-height: 500px;
+    min-width: 300px;
+    max-width: 300px;
+}
+
+#mecha-dead{
+    display: block;
+    margin: auto auto 30px;
+    width: 40%;
+    height: auto;
+}
+
+#mecha-adult{
+    display: block;
+    margin: auto auto;
+    width: 40%;
+    height: auto;
+}
+
+#mecha-teen{
+    display: block;
+    margin: auto auto;
+    width: 40%;
+    height: auto;
+}
+
+#mecha-baby{
+    display: block;
+    margin: auto auto;
+    width: 50%;
+    height: auto;
+}
+
+#mecha-btn-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#mecha-tokens-container{
+    display: block;
+    text-align: center;
+    margin: 40px auto 0px auto;
+
+    font-size: 1.5rem;
+}
+
+#mecha-tokens-container p{
+    margin: 0;
+}
+
+#mecha-tokens-container img{
+    width: 10%;
+}
+
+.btn{
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    cursor: pointer;
+    border: none;
+    border: 1px solid greenyellow;
+    width: 20%;
+    min-height: 5vh;
+    background-color: purple;
+    border-radius: 15px;
+    transition: background-color 1s ease;
+}
+
+.btn:hover{
+    background-color: green;
+}
